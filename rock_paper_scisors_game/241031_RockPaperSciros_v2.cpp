@@ -73,15 +73,15 @@ int main()
 		else{
 			int computer_choice = gameComputer();     
 			
-	        if (user_choice == computer_choice) {
-	            printf("Draw\n");
-	        } 
+	      		if (user_choice == computer_choice) {
+	            	    printf("Draw\n");
+	                } 
 			else if ((computer_choice % 3) + 1 == user_choice) {
-	            printf("User won!\n");
-	        } 
+	                   printf("User won!\n");
+	                } 
 			else {
-	            printf("User lost...\n");
-	        }
+	                   printf("User lost...\n");
+	                }
 		}
 
         printf("Do you want to play again? (y/n): ");
